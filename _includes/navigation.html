@@ -4,9 +4,21 @@
       <h2 class="nav-title">{{ site.title }}</h2>
     </a>
     <ul>
+      {% if page.url == '/' or page.collection == 'posts'%}
+      <li><a class="active_page" href="{{ site.baseurl }}/">Posts</a></li>
+      {% else %}
       <li><a href="{{ site.baseurl }}/">Posts</a></li>
-      <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
-      <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+      {% endif %}
+      {% if page.url == '/tags/' %}
+      <li><a class="active_page" href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
+      {% else %}
+      <li><a  href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
+      {% endif %}
+      {% if page.url == '/about/' %}
+        <li><a class="active_page" href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+      {% else %}
+        <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+      {% endif %}
     </ul>
   </div>
 </nav>
