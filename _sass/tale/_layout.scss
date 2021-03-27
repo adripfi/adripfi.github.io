@@ -14,7 +14,9 @@ footer,
 }
 
 .nav {
-  border-bottom: .15rem solid black;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  border-bottom: .09rem solid rgba(255,255,255,.87);
   overflow: auto;
   max-width: 800px;
   width: 80%;

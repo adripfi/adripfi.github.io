@@ -6,7 +6,7 @@
     font-family: $serif-secondary;
     letter-spacing: 0.5px;
     text-align: left;
-    opacity: .6;
+    opacity: .55;
 
     span {
       font-style: italic;
@@ -19,10 +19,11 @@
     font-size: 2.5rem;
     margin: 1rem 0;
     text-align: left;
+    font-weight: 300;
   }
 
   &-line {
-    border-top: 0.25rem solid $default-shade;
+    border-top: 0.25rem solid #409cff;
     display: block;
     margin: 0 0 3rem;
     width: 4rem;

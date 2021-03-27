@@ -19,7 +19,7 @@
     color: $default-shade;
     font-family: $serif-secondary;
     letter-spacing: .5px;
-    opacity: .5;
+    opacity: .55;
   }
 
   &-title {
@@ -33,7 +33,7 @@
 
   &-line {
     @include transition(all .3s ease-out);
-    border-top: .15rem solid $default-shade;
+    border-top: .15rem solid #409cff; 
     display: block;
     width: 2rem;
   }
