@@ -70,19 +70,20 @@ footer,
   a {
     color: $default-shade;
     font-family: $sans-serif;
+    font-weight: 400;
+    letter-spacing: .01em;
   }
 
   a.title {
     color: $default-shade;
     font-family: $sans-serif;
-    font-weight: bold;
     opacity: 1;
   }
   
   a.active_page {
     color: $default-shade;
     font-family: $sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     opacity: 1;
   }
 }
