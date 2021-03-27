@@ -76,6 +76,9 @@ footer,
     font-family: $monospaced;
     font-weight: 400;
   }
+  a:hover {
+    color: $default-shade;
+  }
 
   a.title {
     color: $default-shade;
