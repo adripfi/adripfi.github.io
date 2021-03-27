@@ -4,7 +4,6 @@
   &-info {
     color: $default-tint;
     font-family: $serif-secondary;
-    letter-spacing: 0.5px;
     text-align: left;
     opacity: .55;
 
@@ -15,7 +14,7 @@
 
   &-title {
     color: $default-shade;
-    font-family: $sans-serif;
+    font-family: $monospaced;
     font-size: 2.5rem;
     margin: 1rem 0;
     text-align: left;
@@ -23,7 +22,7 @@
   }
 
   &-line {
-    border-top: 0.25rem solid #409cff;
+    border-top: 0.25rem solid $blue;
     display: block;
     margin: 0 0 3rem;
     width: 4rem;

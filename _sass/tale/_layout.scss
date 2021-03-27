@@ -16,19 +16,20 @@ footer,
 .nav {
   padding-bottom: 1em;
   padding-top: 1em;
-  border-bottom: .09rem solid rgba(255,255,255,.87);
+  border-bottom: .13rem solid #e8eaed;
   overflow: auto;
-  max-width: 800px;
-  width: 80%;
+  width: 92%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3.2em;
 
 
 
   &-container {
     margin: 1rem 0;
     position: relative;
+    max-width: 100%;
     width: 100%;
     text-align: center;
   }
@@ -39,6 +40,7 @@ footer,
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
+
 
     &:hover,
     &:focus {
@@ -65,28 +67,22 @@ footer,
 
     &:hover,
     &:focus {
-      opacity: .7;
+	font-color: $default-shade;
     }
   }
 
   a {
-    color: $default-shade;
-    font-family: $sans-serif;
+    color: #8e8f92;
+    font-family: $monospaced;
     font-weight: 400;
-    letter-spacing: .01em;
   }
 
   a.title {
     color: $default-shade;
-    font-family: $sans-serif;
-    opacity: 1;
   }
   
   a.active_page {
     color: $default-shade;
-    font-family: $sans-serif;
-    font-weight: 700;
-    opacity: 1;
   }
 }
 

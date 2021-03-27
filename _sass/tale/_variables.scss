@@ -1,22 +1,22 @@
 // Colors
-$default-color:  rgba(255, 255, 255, 0.87) !default;
+$default-color:  #e8eaed !default;
 // $default-color: #555 !default;
-$default-shade: rgba(255, 255, 255, 0.87) !default;
-$default-tint: rgba(255, 255, 255, 0.87) !default;
+$default-shade: #e8eaed !default;
+$default-tint: #e8eaed !default;
 // $default-tint: #aaa !default;
 $grey-1: #979797 !default;
 $grey-2: #e5e5e5 !default;
 $grey-3: #f9f9f9 !default;
 $white: #fff !default;
-$blue: #409cff !default;
+$blue: #8ab4f8 !default;
 $shadow-color: rgba(0, 0, 0, 1) !default;
 $code-color: #bf616a !default;
 
 // Fonts
-$serif-primary: 'Inter', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default; 
-$serif-secondary: 'Inter', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default; 
-$sans-serif: 'Inter', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default;
-$monospaced: Menlo, Monaco, monospace !default;
+$serif-primary: 'IBM Plex Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default; 
+$serif-secondary: 'IBM Plex Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default; 
+$sans-serif: 'IBM Plex Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default;
+$monospaced: 'IBM Plex Mono', Menlo, Monaco, monospace !default;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
