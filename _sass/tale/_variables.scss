@@ -1,7 +1,9 @@
 // Colors
-$default-color: #555 !default;
+$default-color: #353535 !default;
+// $default-color: #555 !default;
 $default-shade: #353535 !default;
-$default-tint: #aaa !default;
+$default-tint: #353535 !default;
+// $default-tint: #aaa !default;
 $grey-1: #979797 !default;
 $grey-2: #e5e5e5 !default;
 $grey-3: #f9f9f9 !default;
@@ -11,9 +13,9 @@ $shadow-color: rgba(0, 0, 0, 1) !default;
 $code-color: #bf616a !default;
 
 // Fonts
-$serif-primary: 'Inter', sans-serif;
-$serif-secondary: 'Inter', sans-serif;
-$sans-serif: 'Inter', sans-serif;
+$serif-primary: 'Inter', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default; 
+$serif-secondary: 'Inter', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default; 
+$sans-serif: 'Inter', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default;
 $monospaced: Menlo, Monaco, monospace !default;
 
 @mixin box-sizing($type: border-box) {

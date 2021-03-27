@@ -53,9 +53,8 @@ footer,
 
   li {
     @include transition(all .2s ease-out);
-    color: $default-color;
+    color: $default-shade;
     display: inline-block;
-    opacity: .6;
     padding: 0 2rem 0 0;
 
     &:last-child {
@@ -64,19 +63,27 @@ footer,
 
     &:hover,
     &:focus {
-      opacity: 1;
+      opacity: .7;
     }
   }
 
   a {
-    color: $default-color;
+    color: $default-shade;
     font-family: $sans-serif;
+  }
+
+  a.title {
+    color: $default-shade;
+    font-family: $sans-serif;
+    font-weight: bold;
+    opacity: 1;
   }
   
   a.active_page {
-    color: black;
+    color: $default-shade;
     font-family: $sans-serif;
     font-weight: bold;
+    opacity: 1;
   }
 }
 

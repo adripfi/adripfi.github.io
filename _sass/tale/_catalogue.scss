@@ -1,6 +1,6 @@
 .catalogue {
   &-item {
-    color: $default-color;
+    color: $default-shade;
     display: block;
     padding: 2rem 0;
 
@@ -15,9 +15,10 @@
   }
 
   &-time {
-    color: $default-tint;
+    color: $default-shade;
     font-family: $serif-secondary;
     letter-spacing: .5px;
+    opacity: .6;
   }
 
   &-title {
