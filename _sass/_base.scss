@@ -18,6 +18,10 @@ span,
 strong {
   color: var(--global-text-color);
 }
+// padding between content blocks on about page e.g.  between info, news, and selected publications
+h2 {
+  padding-top: 40px;
+}
 
 hr {
   border-top: 1px solid var(--global-divider-color);
@@ -29,9 +33,6 @@ table {
     font-size: 1rem;
   }
 
-  th {
-    font-weight: bold;
-  }
 }
 
 a,
@@ -235,9 +236,9 @@ ul.task-list input[type="checkbox"] {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 2px solid var(--global-text-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  // opacity: 0.95;
 }
 
 .navbar .dropdown-menu {
@@ -447,8 +448,8 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
+  // border-top: 1px solid var(--global-divider-color);
+  padding-top: 80px;
   padding-bottom: 40px;
   font-size: 0.9rem;
 
@@ -907,6 +908,7 @@ progress {
 
   /* Progress bar value for IE10  */
   color: var(--global-theme-color);
+  opacity: 0;
 }
 
 progress::-webkit-progress-bar {
@@ -936,6 +938,7 @@ progress::-moz-progress-bar {
   width: 0%;
   display: block;
   height: inherit;
+  opacity: 0;
 }
 
 /* Copy button */
@@ -1286,4 +1289,8 @@ ninja-keys::part(ninja-input-wrapper) {
   .arrow:before {
     border-bottom-color: var(--global-divider-color);
   }
+}
+
+body {
+  font-family: 'Inter', Inter, sans-serif;
 }
