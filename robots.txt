@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://adripfi.github.io/al-folio/sitemap.xml
+Sitemap: https://adripfi.github.io/sitemap.xml
