@@ -26,15 +26,15 @@ $grey-color: #828282 !default;
 $grey-color-light: #e6e1e3;
 $grey-color-dark: #141314;
 $grey-900: #212529;
-$material-link-color-dark: #9f86ff;
-$material-link-color-light: #6442d6;
+$material-link-color-dark: #4285f4;
+$material-link-color-light: #1a6ff3;
 
 $white-color: #fefbff !default;
 $black-color: #1c1b1d !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($material-link-color-light, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
